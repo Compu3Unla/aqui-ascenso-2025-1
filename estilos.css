@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* Aviso: no los estoy poniendo ordenados, voy poniendo los q estoy usando x ahora, sean libres de reordenar o editar ah - Mailén*//
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.menu-barra{
+    display: flex;
+    flex-direction: row;
+} /*Repeti todo lo del flex xq sino no me lo tomaba, se hacia flex solo la lista y el buscar quedaba raro - Mailén*/
+
+
+.noticias-destacadas{
+    display: flex;
+    flex-direction: row;
+}
+.contenedor-ultimas-noticias{
+    display: flex;
+    flex-direction: column;
+}
+
+.etiqueta-conjunto{
+    display: flex;
+    flex-direction: row;
+}
+
+.etiqueta-individual
+{
+    /*Solo le puse algo de estilos de colores(? a estos tags para q se diferencien un toque del texto normal ah - Mailén*/
+    background-color: gray;
+    color: antiquewhite;
+    padding: 2px;
+}
