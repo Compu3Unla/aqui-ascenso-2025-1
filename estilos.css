@@ -1031,4 +1031,81 @@ video::-webkit-media-controls-play-button:hover{
     .acordeon-abierto:hover p{
         font-weight: 800;
     }
+    .ubicacion-acordeon img{
+    color: #114D36;
+    width:20px;
+    height: 20px;
+}
+}
+@media screen and (max-width:900px){
+    
+    body{
+        width: 100%;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+    }
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+    }
+    
+    header{
+        flex-direction: column;
+    }
+
+    .menu-barra{
+            flex-direction: column;
+    }
+
+    .botones-menu{
+        display: flex;
+        flex-direction: column;  
+    }
+    .botones-menu a{
+        font-size: 20px;
+    }
+
+    .contenedor-resultados-html{
+        flex-direction: column;
+    }
+    input{
+        font-size: 15px;
+    }
+    ::placeholder{
+        font-size: 15px;
+    }
+
+    th{
+        font-size: 20px;
+    }
+
+    .tabla-subtitulo{
+        font-size: 24px;
+    }
+    .h4-inter{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    summary{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .p-italico{
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    .h4-verde-acordeon{
+        font-weight: 600;
+    }
+    .acordeon-abierto:hover p{
+        font-weight: 800;
+    }
+    .ubicacion-acordeon img{
+    color: #114D36;
+    width:20px;
+    height: 20px;
+}
 }
