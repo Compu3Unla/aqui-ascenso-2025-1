@@ -757,6 +757,9 @@ summary{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+.acordeon-abierto :hover hr{
+    background-color: white;
+}
 .informacion-acordeon{
     display: flex;
     flex-direction: row;
@@ -965,14 +968,14 @@ video::-webkit-media-controls-play-button:hover{
 
 @media screen and (max-width:600px){
     body{
-        max-width: 600px;
+        width: 600px;
         justify-content: center;
         justify-self: center;
         justify-items: center;
     }
     main{
-        padding-left: 10px;
-        padding-right: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
         flex-direction: column;
     }
     
@@ -988,3 +991,44 @@ video::-webkit-media-controls-play-button:hover{
         display: flex;
         flex-direction: column;  
     }
+    .botones-menu a{
+        font-size: 20px;
+    }
+
+    .contenedor-resultados-html{
+        flex-direction: column;
+    }
+    input{
+        font-size: 15px;
+    }
+    ::placeholder{
+        font-size: 15px;
+    }
+
+    th{
+        font-size: 20px;
+    }
+
+    .tabla-subtitulo{
+        font-size: 24px;
+    }
+    .h4-inter{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    summary{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .p-italico{
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    .h4-verde-acordeon{
+        font-weight: 600;
+    }
+    .acordeon-abierto:hover p{
+        font-weight: 800;
+    }
+}
